@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+@font-face {
+    font-family: Tahoma;
+    src: url(./font/Tahoma_Font_VnUnikey.com_/Tahoma\ Regular\ font.ttf);
+}
+
+.link-hover:hover {
+    color: #f65e39;
+    transition: linear 0.1s;
+}
+
+.content__link {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    }
