@@ -5,6 +5,10 @@
     font-family: Tahoma;
 }
 
+:root {
+    --navbar-color: white;
+}
+
 @font-face {
     font-family: Tahoma;
     src: url(./font/Tahoma_Font_VnUnikey.com_/Tahoma\ Regular\ font.ttf);

@@ -1,7 +1,7 @@
 
 
 .navbar {
-    background-color: white;
+    background-color: var(--navbar-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -505,7 +505,7 @@
     width: 422px;
     border-radius: 10px;
     overflow: hidden;
-    height: 100%;
+    height: 184.73px;
 
 }
 
