@@ -70,9 +70,18 @@
     .hide-on-tablet {
         display: none;
     }
+    
+    .content__contact-app-list {
+        padding: 0 x;
+        flex-wrap: nowrap;
+        max-width: none;
+        width: 100%;
+    }
 }
 
+
 @media screen and ( max-width: 768px) {
+    
     .content__promo-link--more {
         flex-direction: column;
     }
@@ -88,14 +97,6 @@
     .content__contact-app-download {
         display: none;
     }
-    
-    .content__contact-app-list {
-        padding: 0 x;
-        flex-wrap: nowrap;
-        max-width: none;
-        width: 100%;
-    }
-    
     .content__contact-information {
         margin-top: 20px;
     }
