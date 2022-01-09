@@ -7,11 +7,14 @@
 
 :root {
     --navbar-color: white;
+    --text-color: rgb(34, 34, 34);
+    --footer-end-item: rgb(153, 153, 153); 
+    --footer-border-top: rgb(242, 242, 242);
 }
 
 @font-face {
     font-family: Tahoma;
-    src: url(./font/Tahoma_Font_VnUnikey.com_/Tahoma\ Regular\ font.ttf);
+    src: url(./font/Tahoma_Font_VnUnikey.com_/Tahoma\Regular\font.ttf);
 }
 
 .link-hover:hover {
@@ -23,4 +26,4 @@
     display: inline-block;
     text-decoration: none;
     color: rgb(34, 34, 34);
-    }
+}

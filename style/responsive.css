@@ -1,0 +1,111 @@
+/* Mobile */
+
+@media screen and (max-width: 375px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+
+    .navbar {
+        padding: 0 !important;
+    }
+
+    .img-size {
+        width: 304px;
+    }
+
+    .navbar__search-field {
+        width: 100%;
+    }
+
+    .navbar__logo {
+        margin: 0;
+    }
+
+    .navbar__search{
+        flex: 1;
+    }
+
+    .content__place-img {
+        width: 154px ;
+        height: 192.5px;
+    }
+
+    .content__promo-img {
+        height: 162.56px;
+    }
+
+    .content__payment-img {
+        height: 168.88px;
+    }
+
+    
+    .content__contact-logo {
+        width: 150px;
+    }
+    
+    .content__contact-heading {
+        width: 335px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .content__contact-app-list {
+        padding: 0;
+    }
+    
+    .content__contact-img {
+        padding-top: 24px;
+        width: 335px;
+    }
+    
+    .footer__bottom {
+        flex-direction: column;
+    }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and ( max-width: 1023px ) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+@media screen and ( max-width: 768px) {
+    .content__promo-link--more {
+        flex-direction: column;
+    }
+    
+    .wrapper {
+        padding:  0 20px;
+    }
+    
+    .content__contact {
+        flex-direction: column;
+    }
+    
+    .content__contact-app-download {
+        display: none;
+    }
+    
+    .content__contact-app-list {
+        padding: 0 x;
+        flex-wrap: nowrap;
+        max-width: none;
+        width: 100%;
+    }
+    
+    .content__contact-information {
+        margin-top: 20px;
+    }
+    
+    .content__contact-img {
+        width: 100%;
+    }
+    
+    .content__contact-download {
+        margin-top: 20px;
+    }
+    
+}
