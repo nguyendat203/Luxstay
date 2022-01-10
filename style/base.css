@@ -27,3 +27,11 @@
     text-decoration: none;
     color: rgb(34, 34, 34);
 }
+
+.scroll-list {
+    scroll-snap-type: x mandatory;
+}
+
+.scroll-item {
+    scroll-snap-align: start;
+}
